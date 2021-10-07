@@ -1,0 +1,21 @@
+{"chosen_set": "test",
+
+  "folds": 4, "pre_warmup_epochs" : 10,
+    "pre_epochs" : 1,
+    "pre_lr" : 1e-5,
+    "pre_batch" : 8,
+    "pre_rateDacedy" : 0.0001  ,
+
+   "specific_tuning": true,
+  "specific_lr": 2e-05,
+  "specific_epochs": 1,
+  "specific_batch": 8,
+  "specific_warmup_epochs": 1,
+  "specific_dropout": 0.0,
+  "specific_rateDacedy": 0,
+  "only_abstratc_and_target": "abstract_and_target",
+  "direct_prediction": false, "use_distil_bert": false, "use_warm_up": true, "feat_layers_size": [5, 5, 5], "three_layers": false,
+  "use_bias_in_final_layer": false, "feat_output_size": 2, "feat_learning_rate": 0.0003, "feat_dropout_rate": 0.0, "use_attention_in_feat_embeder": true,
+  "feat_embeder_ephocs": 1000, "allow_train_feat_embeder": true, "bert_embed_reduction": 20, "specific_patience": 3, "tune_again_on_all_trainset": false,
+  "early_stopping_metric": "val_auc", "early_stopping_mode": "max", "boost_specific": false, "weight_for_boosting": 2, "replecate_small_datasets": true,
+  "baseline_tuning": false}
